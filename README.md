@@ -5,3 +5,7 @@ Simple Linux network tool examples.
 ```sh
 while true; do echo "Download..."; curl -s -XGET "<URL_ADDRESS_HERE>" > /dev/null; echo "Sleep..."; sleep 10; done
 ```
+
+```sh
+sudo iftop -i eth0 -f DESTINATION_IP_ADDRESS
+```
